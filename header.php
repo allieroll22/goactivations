@@ -14,13 +14,30 @@
 
   <body>
 
-    <header>
-      <a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a>
-      <div class="container">
-      <div class= "container-header">
-        <button class="header-h2"><a href="index.php">Homepage</a></button>
-        <h1>The University of Florida </h1>
+    <header >
+      <div class= "container">
+
+        <div class="row">
+
+          <?php dynamic_sidebar('header-image'); ?>
+        </div>
+
+
+        <div class="row menu">
+          <!--Logo (May need Widget Area)-->
+          <div class="three columns">
+              <?php dynamic_sidebar('header-logo'); ?>
+          </div>
+
+          <!--Header Menu-->
+          <div class="nine columns">
+            <?php wp_nav_menu(array(
+              'theme_location' => 'header-menu',
+              'container-class' => 'menu-header'
+            ));
+          ?>
+          </div>
+        </div>
 
       </div>
-    </div>
     </header>
