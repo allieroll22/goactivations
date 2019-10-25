@@ -76,13 +76,21 @@ h1.home-hero-text{
   color: grey;
   text-align: center;
 }
-button {
+.hero-text {
   text-align: center;
 }
 .row.home {
-    position: relative;
-    top: 350px;
+  position: fixed;
+  top: 600px;
+  background: #3E99B0;
+  padding: 50px;
 }
+.home-text {
+  color:white;
+  text-align: center;
+  font-style: italic;
+}
+
 /* Menu position behind image */
 
 .row.menu {
