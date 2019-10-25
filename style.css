@@ -36,7 +36,7 @@ header .row {
 }
 
 
-.hero-image, .hero-image-widget {
+.hero-image-home, .hero-image-widget {
   position: absolute;
   top: 0;
   z-index: 1;
