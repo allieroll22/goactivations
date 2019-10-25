@@ -69,7 +69,7 @@ header .row {
   object-position: center;
 }
 
-.home-hero-text h1 {
+h1.home-hero-text{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-style: italic;
