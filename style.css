@@ -27,15 +27,12 @@ h1 {
   font-style: italic;
 }
 
-header {
-  height: 100px;
-}
-
 header .row {
   display:flex;
   justify-content: left;
   align-items: center;
   z-index: 99;
+  background-color: #414042;
 }
 
 
@@ -82,7 +79,7 @@ button.quote {
   position: fixed;
   top: 600px;
   background: #3E99B0;
-  padding: 50px;
+  padding: 5% 11%;
 }
 .home-text {
   color:white;
