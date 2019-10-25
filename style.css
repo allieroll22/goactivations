@@ -62,11 +62,7 @@ header .row {
   border-top: none !important;
 }
 
-.hero-image-widget img {
-  object-position: left;
-}
-
-.hero-image img {
+.hero-image-home img {
   object-position: center;
 }
 
