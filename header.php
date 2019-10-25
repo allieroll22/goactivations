@@ -9,7 +9,7 @@
 
     <!--Link to our style.css file -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Source+Sans+Pro:300i,400,900i&display=swap" rel="stylesheet">
   </head>
 
   <body>
