@@ -10,10 +10,13 @@
             <?php the_post_thumbnail(); ?>
         </div>
      <?php } ?>
-
-<h1 class="home-hero-text">Go Big. Go Forward.</h1>
-<button class="quote">Get a Quote</button>
 <div class="container">
+
+  <div class="hero-text">
+    <h1 class="home-hero-text">Go Big. Go Forward.</h1>
+    <button class="quote">Get a Quote</button>
+  </div>
+
   <!-- Home Text Section -->
   <div class="row">
     <div class="twelve columns">
