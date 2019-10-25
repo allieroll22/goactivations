@@ -28,7 +28,6 @@ h1 {
 }
 
 header {
-  padding-bottom: 30px;
   height: 100px;
 }
 
@@ -42,7 +41,7 @@ header .row {
 
 .hero-image-home, .hero-image {
   position: absolute;
-  top: 0;
+  top: 80px;
   z-index: 0;
 }
 
@@ -60,12 +59,6 @@ header .row {
   width: 100%;
   object-fit: cover;
   max-height: 600px;
-  border-right: none !important;
-  border-left: none !important;
-  border-top: none !important;
-}
-
-.hero-image-home img {
   object-position: center;
 }
 
@@ -78,7 +71,7 @@ h1.home-hero-text{
 }
 .hero-text {
   text-align: center;
-  padding-top: 5%;
+  padding-top: 15%;
 }
 button.quote {
   background-color: #EF4224;
