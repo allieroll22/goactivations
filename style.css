@@ -73,11 +73,17 @@ h1.home-hero-text{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-style: italic;
-  color: grey;
+  color: white;
   text-align: center;
 }
 .hero-text {
   text-align: center;
+  padding-top: 5%;
+}
+button.quote {
+  background-color: #EF4224;
+  color: white;
+  border: none;
 }
 .row.home {
   position: fixed;
