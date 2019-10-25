@@ -16,6 +16,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+  max-width: 2000px;
+  width: 100%;
+}
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -43,7 +47,7 @@ header .row {
 }
 
 .hero-image-home:before, .hero-image:before {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), transparent); position: absolute;
+  linear-gradient(to bottom, rgba(0, 46, 83, 1), transparent); position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
