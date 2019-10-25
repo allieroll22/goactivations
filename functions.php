@@ -28,7 +28,7 @@ function blank_widgets_init(){
     'after_title'   =>  '</h3>'
   ));
 
-  //About Us Text Block Widget
+  //Home Text Block Widget
   register_sidebar( array(
     'name'          =>  ('Home Text Block'),
     'id'            =>  'home-text',
@@ -39,7 +39,7 @@ function blank_widgets_init(){
     'after_title'   =>  '</h3>'
   ));
 
-  
+
   //FOOTER
   //Left Footer
   register_sidebar( array(
