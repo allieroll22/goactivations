@@ -18,7 +18,7 @@
   </div>
 
   <!-- Home Text Section -->
-  <div class="row">
+  <div class="row home">
     <div class="twelve columns">
       <?php dynamic_sidebar('home-text'); ?>
     </div>
